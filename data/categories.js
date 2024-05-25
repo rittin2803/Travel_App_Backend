@@ -28,7 +28,5 @@ const categories = {
         { id: uuid(), category: "Historical Homes" },
     ]
 }
-    
-
 
 module.exports = categories

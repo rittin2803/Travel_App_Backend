@@ -13,6 +13,8 @@ router.route("/")    // When called from server.js the url will be updated accor
         // Query - http://localhost:3000/api/hotels?category=National+Park
 
         try {
+            // Retrieving one hotel from DB - const hotels = await Hotel.find({})
+
             let hotels
             if(hotelCategory){
                 hotels = await Hotel.find({category: hotelCategory})
